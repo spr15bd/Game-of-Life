@@ -1,0 +1,90 @@
+#title {
+  	color: black 1px bold;
+  	text-align: center;
+  	font-size: 2em;
+}
+#grid-50 {
+  	width: 500px;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+#grid-70 {
+  	width: 700px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+#grid-90 {
+  	width: 900px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#square0 {
+  	display: inline;
+  	float: left;
+  	width: 9px;
+  	height: 9px;
+  	border: 1px solid black;
+  	margin-left: -1px;
+  	margin-bottom: -1px;
+}
+#square1 {
+  	display: inline;
+  	float: left;
+  	width: 9px;
+  	height: 9px;
+  	border: 1px solid black;
+  	margin-left: -1px;
+  	margin-bottom: -1px;
+  	background-color: purple;
+}
+#buttons {
+  	width: 512px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+#size, #clock {
+  	float: left;
+}
+#speed {
+  	float: right;
+}
+.generation-clock {
+  	float: left;
+  	background-color: purple;
+  	color: white;
+  	width: 120px;
+  	height: 30px;
+  	text-align: center;
+  	cursor: pointer;
+  	margin: 2px;
+  	border: 2px solid black;
+}
+.set-board-size {
+  	float: left;
+  	background-color: black;
+  	color: white;
+  	width: 75px;
+  	height: 30px;
+  	text-align: center;
+  	cursor: pointer;
+  	margin: 2px;
+  	border: 2px solid black;
+}
+.set-sim-speed {
+  	float: left;
+  	background-color: gray;
+  	color: white;
+  	width: 75px;
+  	height: 30px;
+  	text-align: center;
+  	cursor: pointer;
+  	margin: 2px;
+  	border: 2px solid black;
+}
+#grid-section {
+  	clear: left;
+}
+#controls {
+  	clear: left;
+}
